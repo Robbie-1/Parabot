@@ -80,4 +80,7 @@ public class Invoker implements Injectable {
 				this.argsDesc, this.returnDesc, this.methodName, this.isInterface, this.instanceCast, this.argsCheckCastDesc);
 	}
 
+	public ClassNode getInto() {
+		return into;
+	}
 }
